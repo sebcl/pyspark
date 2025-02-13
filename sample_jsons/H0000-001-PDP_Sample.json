@@ -1,0 +1,552 @@
+{
+    "contractYear": 2026,
+    "section": "MA&RX",
+    "pbp": [
+        {
+            "contractId": "S0001",
+            "planId": "001",
+            "segmentId": 0,
+            "status": "Ready for Submission",
+            "statusCode": "RFS",
+            "lastUpdatedAt": "12/4/2024 10:10:48 AM EST",
+            "lastUpdatedBy": "HPMS TEST USER",
+            "planCharacteristics": {
+                "status": "Completed",
+                "statusCode": "C",
+                "lastUpdatedAt": "12/4/2024 10:07:01 AM EST",
+                "lastUpdatedBy": "HPMS TEST USER",
+                "planName": "Horizon Medicare Blue Rx Standard (PDP)",
+                "planDeleted": "0",
+                "planSegmentDeleted": "0",
+                "contractLegalName": "Sample Contract Name",
+                "organizationMarketingName": "Sample Org Marketing Name",
+                "geographicName": "Sample Location",
+                "organizationType": "PDP",
+                "segmentName": "Not Available",
+                "planTypeLabel": "Medicare Prescription Drug Plan",
+                "hpmsPlanType": "29",
+                "isNetworkPlan": "Not Applicable",
+                "isEmployerOnlyPlan": "No",
+                "isOfferRx": "Yes",
+                "contractIsOfferPartD": "Yes",
+                "offerPos": "No",
+                "isVbid": "Not Available",
+                "isOutOfNetwork": "No",
+                "isPdssm": "Not Available",
+                "isSnp": "No",
+                "snpType": "Not Available",
+                "snpInstitutionalType": "Not Available",
+                "isMedicareZeroDollarCostSharing": "Not Available",
+                "chronicOrDisablingConditions": "Not Available",
+                "planCharacteristicsDetails": null
+            },
+            "rx": {
+                "section": "Rx",
+                "rxDetails": {
+                    "rxSetup": {
+                        "section": "Rx Setup",
+                        "status": "Completed",
+                        "statusCode": "C",
+                        "lastUpdatedAt": "12/04/2024 10:07:05 AM EST",
+                        "lastUpdatedBy": "HPMS TEST USER",
+                        "rxSetupDetails": {
+                            "drugBenefitType": "EA",
+                            "retailPharmacyNetwork": "1",
+                            "mailOrderPharmacyNetwork": "",
+                            "longTermCare": "1",
+                            "outOfNetwork": "1",
+                            "sponsorAttest": "1",
+                            "planPayOtc": "2",
+                            "firstFreeFill": "2",
+                            "tierCount": "7",
+                            "formularyExceptionsTier": "6",
+                            "tierModel": "7A",
+                            "hasOptionalTier": "2",
+                            "hasSecondLessExpensiveTier": "2"
+                        },
+                        "rxCostShare": {
+                            "section": "Rx Cost Share",
+                            "status": "Completed",
+                            "statusCode": "C",
+                            "lastUpdatedAt": "12/04/2024 10:07:07 AM EST",
+                            "lastUpdatedBy": "HPMS TEST USER",
+                            "rxCostShareDetails": {
+                                "costShareReducedCostSharingNotes": "",
+                                "costShareHasReducedCostSharing": "2",
+                                "costShareDeductibleType": "1",
+                                "costShareOutOfNetworkStructure": "1",
+                                "costSharePreIclCostSharingMethod": "1",
+                                "costShareHasExcludedDrugCoverage": "1",
+                                "costShareOopcExcessCostSharingMethod": "2",
+                                "costShareDeductibleAppliesToAllTiers": "1",
+                                "costShareDeductibleAmount": "590.00"
+                            }
+                        },
+                        "rxTiers": {
+                            "section": "Rx Tiers",
+                            "lastUpdatedBy": "",
+                            "rxTierLocations": {
+                                "section": "Rx Tier Locations",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:07:09 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxTierLocationsDetails": {
+                                    "retailOneMonthSupply": "30",
+                                    "hasRetailTwoMonthSupply": "2",
+                                    "hasRetailThreeMonthSupply": "2"
+                                }
+                            },
+                            "rxTier1": {
+                                "section": "Rx Tier 1",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:07:16 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxTier1Details": {
+                                    "generic": "1",
+                                    "brand": "2",
+                                    "tierIncludes": "PD",
+                                    "retailOneMonth": "30",
+                                    "longTermCareOneMonth": "31",
+                                    "oonDaySupply": "30"
+                                },
+                                "rxTier1PreIcl": {
+                                    "section": "Rx Tier 1 Initial Coverage Phase",
+                                    "status": "Completed",
+                                    "statusCode": "C",
+                                    "lastUpdatedAt": "12/04/2024 10:07:18 AM EST",
+                                    "lastUpdatedBy": "HPMS TEST USER",
+                                    "rxTier1PreIclDetails": {
+                                        "preIclCostShareStructure": "2",
+                                        "preIclRetailOneMonthDaysSupply": "30",
+                                        "preIclRetailOneMonthCopayment": "0.00",
+                                        "preIclRetailOneMonthDailyCopayment": "0.00",
+                                        "preIclLongTermCareDaysSupply": "31",
+                                        "preIclLongTermCareCopayment": "0.00",
+                                        "preIclLongTermCareOneMonthDailyCopayment": "0.00",
+                                        "preIclOutOfNetworkDaysSupply": "30",
+                                        "preIclOutOfNetworkCopayment": "0.00"
+                                    }
+                                },
+                                "rxTier1PostOop": {
+                                    "section": "Rx Tier 1 Post OOP",
+                                    "status": "Completed",
+                                    "statusCode": "C",
+                                    "lastUpdatedAt": "12/04/2024 10:07:20 AM EST",
+                                    "lastUpdatedBy": "HPMS TEST USER",
+                                    "rxTier1PostOopDetails": {
+                                        "tierPostOopCostShareStructure": "2",
+                                        "tierPostOopCopaymentAmount": "0.00"
+                                    }
+                                }
+                            },
+                            "rxTier2": {
+                                "section": "Rx Tier 2",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:08:16 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxTier2Details": {
+                                    "generic": "1",
+                                    "brand": "2",
+                                    "tierIncludes": "PE",
+                                    "retailOneMonth": "30",
+                                    "longTermCareOneMonth": "31",
+                                    "oonDaySupply": "30"
+                                },
+                                "rxTier2PreIcl": {
+                                    "section": "Rx Tier 2 Initial Coverage Phase",
+                                    "status": "Completed",
+                                    "statusCode": "C",
+                                    "lastUpdatedAt": "12/04/2024 10:08:20 AM EST",
+                                    "lastUpdatedBy": "HPMS TEST USER",
+                                    "rxTier2PreIclDetails": {
+                                        "preIclCostShareStructure": "2",
+                                        "preIclRetailOneMonthDaysSupply": "30",
+                                        "preIclRetailOneMonthCopayment": "0.00",
+                                        "preIclRetailOneMonthDailyCopayment": "0.00",
+                                        "preIclLongTermCareDaysSupply": "31",
+                                        "preIclLongTermCareCopayment": "0.00",
+                                        "preIclLongTermCareOneMonthDailyCopayment": "0.00",
+                                        "preIclOutOfNetworkDaysSupply": "30",
+                                        "preIclOutOfNetworkCopayment": "0.00"
+                                    }
+                                },
+                                "rxTier2PostOop": {
+                                    "section": "Rx Tier 2 Post OOP",
+                                    "status": "Completed",
+                                    "statusCode": "C",
+                                    "lastUpdatedAt": "12/04/2024 10:08:22 AM EST",
+                                    "lastUpdatedBy": "HPMS TEST USER",
+                                    "rxTier2PostOopDetails": {
+                                        "tierPostOopCostShareStructure": "2",
+                                        "tierPostOopCopaymentAmount": "0.00"
+                                    }
+                                }
+                            },
+                            "rxTier3": {
+                                "section": "Rx Tier 3",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:08:28 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxTier3Details": {
+                                    "generic": "2",
+                                    "brand": "1",
+                                    "tierIncludes": "PD",
+                                    "retailOneMonth": "30",
+                                    "longTermCareOneMonth": "31",
+                                    "oonDaySupply": "30"
+                                },
+                                "rxTier3PreIcl": {
+                                    "section": "Rx Tier 3 Initial Coverage Phase",
+                                    "status": "Completed",
+                                    "statusCode": "C",
+                                    "lastUpdatedAt": "12/04/2024 10:08:31 AM EST",
+                                    "lastUpdatedBy": "HPMS TEST USER",
+                                    "rxTier3PreIclDetails": {
+                                        "preIclCostShareStructure": "2",
+                                        "preIclRetailOneMonthDaysSupply": "30",
+                                        "preIclRetailOneMonthCopayment": "0.00",
+                                        "preIclRetailOneMonthDailyCopayment": "0.00",
+                                        "preIclLongTermCareDaysSupply": "31",
+                                        "preIclLongTermCareCopayment": "0.00",
+                                        "preIclLongTermCareOneMonthDailyCopayment": "0.00",
+                                        "preIclOutOfNetworkDaysSupply": "30",
+                                        "preIclOutOfNetworkCopayment": "0.00"
+                                    }
+                                },
+                                "rxTier3PostOop": {
+                                    "section": "Rx Tier 3 Post OOP",
+                                    "status": "Completed",
+                                    "statusCode": "C",
+                                    "lastUpdatedAt": "12/04/2024 10:08:33 AM EST",
+                                    "lastUpdatedBy": "HPMS TEST USER",
+                                    "rxTier3PostOopDetails": {
+                                        "tierPostOopCostShareStructure": "2",
+                                        "tierPostOopCopaymentAmount": "0.00"
+                                    }
+                                }
+                            },
+                            "rxTier4": {
+                                "section": "Rx Tier 4",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:08:39 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxTier4Details": {
+                                    "generic": "1",
+                                    "brand": "1",
+                                    "tierIncludes": "PD",
+                                    "retailOneMonth": "30",
+                                    "longTermCareOneMonth": "31",
+                                    "oonDaySupply": "30"
+                                },
+                                "rxTier4PreIcl": {
+                                    "section": "Rx Tier 4 Initial Coverage Phase",
+                                    "status": "Completed",
+                                    "statusCode": "C",
+                                    "lastUpdatedAt": "12/04/2024 10:08:42 AM EST",
+                                    "lastUpdatedBy": "HPMS TEST USER",
+                                    "rxTier4PreIclDetails": {
+                                        "preIclCostShareStructure": "2",
+                                        "preIclRetailOneMonthDaysSupply": "30",
+                                        "preIclRetailOneMonthCopayment": "0.00",
+                                        "preIclRetailOneMonthDailyCopayment": "0.00",
+                                        "preIclLongTermCareDaysSupply": "31",
+                                        "preIclLongTermCareCopayment": "0.00",
+                                        "preIclLongTermCareOneMonthDailyCopayment": "0.00",
+                                        "preIclOutOfNetworkDaysSupply": "30",
+                                        "preIclOutOfNetworkCopayment": "0.00"
+                                    }
+                                },
+                                "rxTier4PostOop": {
+                                    "section": "Rx Tier 4 Post OOP",
+                                    "status": "Completed",
+                                    "statusCode": "C",
+                                    "lastUpdatedAt": "12/04/2024 10:08:44 AM EST",
+                                    "lastUpdatedBy": "HPMS TEST USER",
+                                    "rxTier4PostOopDetails": {
+                                        "tierPostOopCostShareStructure": "2",
+                                        "tierPostOopCopaymentAmount": "0.00"
+                                    }
+                                }
+                            },
+                            "rxTier5": {
+                                "section": "Rx Tier 5",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:08:51 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxTier5Details": {
+                                    "generic": "1",
+                                    "brand": "1",
+                                    "tierIncludes": "PD",
+                                    "retailOneMonth": "30",
+                                    "longTermCareOneMonth": "31",
+                                    "oonDaySupply": "30"
+                                },
+                                "rxTier5PreIcl": {
+                                    "section": "Rx Tier 5 Initial Coverage Phase",
+                                    "status": "Completed",
+                                    "statusCode": "C",
+                                    "lastUpdatedAt": "12/04/2024 10:08:54 AM EST",
+                                    "lastUpdatedBy": "HPMS TEST USER",
+                                    "rxTier5PreIclDetails": {
+                                        "preIclCostShareStructure": "2",
+                                        "preIclRetailOneMonthDaysSupply": "30",
+                                        "preIclRetailOneMonthCopayment": "0.00",
+                                        "preIclRetailOneMonthDailyCopayment": "0.00",
+                                        "preIclLongTermCareDaysSupply": "31",
+                                        "preIclLongTermCareCopayment": "0.00",
+                                        "preIclLongTermCareOneMonthDailyCopayment": "0.00",
+                                        "preIclOutOfNetworkDaysSupply": "30",
+                                        "preIclOutOfNetworkCopayment": "0.00"
+                                    }
+                                },
+                                "rxTier5PostOop": {
+                                    "section": "Rx Tier 5 Post OOP",
+                                    "status": "Completed",
+                                    "statusCode": "C",
+                                    "lastUpdatedAt": "12/04/2024 10:08:56 AM EST",
+                                    "lastUpdatedBy": "HPMS TEST USER",
+                                    "rxTier5PostOopDetails": {
+                                        "tierPostOopCostShareStructure": "2",
+                                        "tierPostOopCopaymentAmount": "0.00"
+                                    }
+                                }
+                            },
+                            "rxTier6": {
+                                "section": "Rx Tier 6",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:09:02 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxTier6Details": {
+                                    "generic": "2",
+                                    "brand": "1",
+                                    "tierIncludes": "PD",
+                                    "retailOneMonth": "30",
+                                    "longTermCareOneMonth": "31",
+                                    "oonDaySupply": "30"
+                                },
+                                "rxTier6PreIcl": {
+                                    "section": "Rx Tier 6 Initial Coverage Phase",
+                                    "status": "Completed",
+                                    "statusCode": "C",
+                                    "lastUpdatedAt": "12/04/2024 10:09:05 AM EST",
+                                    "lastUpdatedBy": "HPMS TEST USER",
+                                    "rxTier6PreIclDetails": {
+                                        "preIclCostShareStructure": "2",
+                                        "preIclRetailOneMonthDaysSupply": "30",
+                                        "preIclRetailOneMonthCopayment": "0.00",
+                                        "preIclRetailOneMonthDailyCopayment": "0.00",
+                                        "preIclLongTermCareDaysSupply": "31",
+                                        "preIclLongTermCareCopayment": "0.00",
+                                        "preIclLongTermCareOneMonthDailyCopayment": "0.00",
+                                        "preIclOutOfNetworkDaysSupply": "30",
+                                        "preIclOutOfNetworkCopayment": "0.00"
+                                    }
+                                },
+                                "rxTier6PostOop": {
+                                    "section": "Rx Tier 6 Post OOP",
+                                    "status": "Completed",
+                                    "statusCode": "C",
+                                    "lastUpdatedAt": "12/04/2024 10:09:08 AM EST",
+                                    "lastUpdatedBy": "HPMS TEST USER",
+                                    "rxTier6PostOopDetails": {
+                                        "tierPostOopCostShareStructure": "2",
+                                        "tierPostOopCopaymentAmount": "0.00"
+                                    }
+                                }
+                            },
+                            "rxTier7": {
+                                "section": "Rx Tier 7",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:09:17 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxTier7Details": {
+                                    "generic": "2",
+                                    "brand": "1",
+                                    "tierIncludes": "ED",
+                                    "retailOneMonth": "30",
+                                    "longTermCareOneMonth": "31",
+                                    "oonDaySupply": "30"
+                                },
+                                "rxTier7PreIcl": {
+                                    "section": "Rx Tier 7 Initial Coverage Phase",
+                                    "status": "Completed",
+                                    "statusCode": "C",
+                                    "lastUpdatedAt": "12/04/2024 10:09:20 AM EST",
+                                    "lastUpdatedBy": "HPMS TEST USER",
+                                    "rxTier7PreIclDetails": {
+                                        "preIclCostShareStructure": "2",
+                                        "preIclRetailOneMonthDaysSupply": "30",
+                                        "preIclRetailOneMonthCopayment": "0.00",
+                                        "preIclRetailOneMonthDailyCopayment": "0.00",
+                                        "preIclLongTermCareDaysSupply": "31",
+                                        "preIclLongTermCareCopayment": "0.00",
+                                        "preIclLongTermCareOneMonthDailyCopayment": "0.00",
+                                        "preIclOutOfNetworkDaysSupply": "30",
+                                        "preIclOutOfNetworkCopayment": "0.00"
+                                    }
+                                },
+                                "rxTier7PostOop": {
+                                    "section": "Rx Tier 7 Post OOP",
+                                    "status": "Completed",
+                                    "statusCode": "C",
+                                    "lastUpdatedAt": "12/04/2024 10:09:22 AM EST",
+                                    "lastUpdatedBy": "HPMS TEST USER",
+                                    "rxTier7PostOopDetails": {
+                                        "tierPostOopCostShareStructure": "2",
+                                        "tierPostOopCopaymentAmount": "0.00"
+                                    }
+                                }
+                            },
+                            "rxAttestations": {
+                                "section": "Rx Attestations",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:09:27 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxAttestationsDetails": {
+                                    "averageExpectedCostSharingAttestation": "",
+                                    "zeroDollarCostSharingAttestation": "",
+                                    "zeroDollarAdultVaccineAttestation": "1"
+                                }
+                            }
+                        },
+                        "rxInsulin": {
+                            "section": "Rx Insulin",
+                            "status": "Completed",
+                            "statusCode": "C",
+                            "lastUpdatedAt": "12/04/2024 10:09:43 AM EST",
+                            "lastUpdatedBy": "HPMS TEST USER",
+                            "rxInsulinDetails": {
+                                "insulinAttestation": "1",
+                                "insulinTiers": "1,2,3,4,5,6,7"
+                            },
+                            "rxInsulinTier1PreIcl": {
+                                "section": "Rx Insulin Tier 1 ",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:09:52 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxInsulinTier1PreIclDetails": {
+                                    "insulinPreIclRetailOneMonthCopayment": "0.00",
+                                    "insulinPreIclLongTermCareCopayment": "0.00",
+                                    "insulinPreIclOutOfNetworkCopayment": "0.00",
+                                    "insulinPreIclRetailOneMonthCoinsurance": "1",
+                                    "insulinPreIclLongTermCareCoinsurance": "1",
+                                    "insulinPreIclOutOfNetworkCoinsurance": "1"
+                                }
+                            },
+                            "rxInsulinTier2PreIcl": {
+                                "section": "Rx Insulin Tier 2 ",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:10:02 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxInsulinTier2PreIclDetails": {
+                                    "insulinPreIclRetailOneMonthCopayment": "0.00",
+                                    "insulinPreIclLongTermCareCopayment": "0.00",
+                                    "insulinPreIclOutOfNetworkCopayment": "0.00",
+                                    "insulinPreIclRetailOneMonthCoinsurance": "1",
+                                    "insulinPreIclLongTermCareCoinsurance": "1",
+                                    "insulinPreIclOutOfNetworkCoinsurance": "1"
+                                }
+                            },
+                            "rxInsulinTier3PreIcl": {
+                                "section": "Rx Insulin Tier 3 ",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:10:11 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxInsulinTier3PreIclDetails": {
+                                    "insulinPreIclRetailOneMonthCopayment": "0.00",
+                                    "insulinPreIclLongTermCareCopayment": "0.00",
+                                    "insulinPreIclOutOfNetworkCopayment": "0.00",
+                                    "insulinPreIclRetailOneMonthCoinsurance": "1",
+                                    "insulinPreIclLongTermCareCoinsurance": "1",
+                                    "insulinPreIclOutOfNetworkCoinsurance": "1"
+                                }
+                            },
+                            "rxInsulinTier4PreIcl": {
+                                "section": "Rx Insulin Tier 4 ",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:10:20 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxInsulinTier4PreIclDetails": {
+                                    "insulinPreIclRetailOneMonthCopayment": "0.00",
+                                    "insulinPreIclLongTermCareCopayment": "0.00",
+                                    "insulinPreIclOutOfNetworkCopayment": "0.00",
+                                    "insulinPreIclRetailOneMonthCoinsurance": "1",
+                                    "insulinPreIclLongTermCareCoinsurance": "1",
+                                    "insulinPreIclOutOfNetworkCoinsurance": "1"
+                                }
+                            },
+                            "rxInsulinTier5PreIcl": {
+                                "section": "Rx Insulin Tier 5 ",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:10:29 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxInsulinTier5PreIclDetails": {
+                                    "insulinPreIclRetailOneMonthCopayment": "0.00",
+                                    "insulinPreIclLongTermCareCopayment": "0.00",
+                                    "insulinPreIclOutOfNetworkCopayment": "0.00",
+                                    "insulinPreIclRetailOneMonthCoinsurance": "1",
+                                    "insulinPreIclLongTermCareCoinsurance": "1",
+                                    "insulinPreIclOutOfNetworkCoinsurance": "1"
+                                }
+                            },
+                            "rxInsulinTier6PreIcl": {
+                                "section": "Rx Insulin Tier 6 ",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:10:37 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxInsulinTier6PreIclDetails": {
+                                    "insulinPreIclRetailOneMonthCopayment": "0.00",
+                                    "insulinPreIclLongTermCareCopayment": "0.00",
+                                    "insulinPreIclOutOfNetworkCopayment": "0.00",
+                                    "insulinPreIclRetailOneMonthCoinsurance": "1",
+                                    "insulinPreIclLongTermCareCoinsurance": "1",
+                                    "insulinPreIclOutOfNetworkCoinsurance": "1"
+                                }
+                            },
+                            "rxInsulinTier7PreIcl": {
+                                "section": "Rx Insulin Tier 7 ",
+                                "status": "Completed",
+                                "statusCode": "C",
+                                "lastUpdatedAt": "12/04/2024 10:10:45 AM EST",
+                                "lastUpdatedBy": "HPMS TEST USER",
+                                "rxInsulinTier7PreIclDetails": {
+                                    "insulinPreIclRetailOneMonthCopayment": "0.00",
+                                    "insulinPreIclLongTermCareCopayment": "0.00",
+                                    "insulinPreIclOutOfNetworkCopayment": "0.00",
+                                    "insulinPreIclRetailOneMonthCoinsurance": "1",
+                                    "insulinPreIclLongTermCareCoinsurance": "1",
+                                    "insulinPreIclOutOfNetworkCoinsurance": "1"
+                                }
+                            }
+                        },
+                        "rxNotes": {
+                            "section": "Rx Notes",
+                            "status": "Completed",
+                            "statusCode": "C",
+                            "lastUpdatedAt": "12/04/2024 10:09:36 AM EST",
+                            "lastUpdatedBy": "HPMS TEST USER",
+                            "rxNotesDetails": {
+                                "notes": "Internal testing"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
